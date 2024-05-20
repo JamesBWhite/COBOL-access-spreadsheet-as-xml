@@ -3,7 +3,7 @@ Read or even update spreadsheets that are converted to xml with Cobol
 Convert speadsheet to XML and then you can read through it and access the individual cell data. 
 Read or even update spreadsheets that are converted to xml with Cobol.  Convert spreadsheet to XML and then you can read through it and access the individual cell data.
 To manually create an xml file from a spreadsheet, just open create or the spreadsheet in Microsoft® (MS) or LibreOffice® (LO) calc and save as xml (or even fods for LibreOffice).  
-If you have many spreadsheets to convert you can run a batch process for LibreOffice on Linux or Windows®.  I read where you can run a .bat file on Windows for Excel, but I was not able to do that.   I use Linux mostly anyway.  I included the .sh and the .bat file for my LO conversions.
+If you have many spreadsheets to convert you can run a batch process for LibreOffice on Linux or Windows®.  I read where you can run a .bat file on Windows for Excel, but I was not able to do that.   I use Linux mostly anyway.  I included the .sh and the .bat file for my LO conversions.  The process will name the output file the same as the input file name but with the new extention (xml or fods)
 NOTE;  When running the .sh conversion script on Linux, the following 3 applications had to be added as I received these errors:
 	First error was:  javaldx error. Second error was:  Error: source file could not be loaded. 
 	javaldx: Could not find a Java Runtime Environment!
