@@ -26,6 +26,7 @@ You can actually update or insert or delete rows.  Just keep the MS row counter 
 If you do update the xml/fods file, just upload it back and manually convert (or batch script/shell) it back to a spreadsheet. 
 
 To compile on Gnucobol: cobc -x processexcelxmlLO.cbl -std=mf 
-                        cobc -x processexcelxmlMS.cbl -std=mf
+ or                        cobc -x processexcelxmlMS.cbl -std=mf
 
-To Execute:  processexcelxmlLO input.spreadsheet.file.name output.xml
+To Execute:  processexcelxmlLO input.spreadsheet.file.name output.xml 
+ or           processexcelxmlMS input.spreadsheet.file.name output.xml
